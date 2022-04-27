@@ -74,7 +74,7 @@
                         <div class="search-bar">
                             <select>
                                 <option >All Category</option>
-                                @foreach(Helper::getAllCategory() as $cat)
+                                @foreach(\Helper::getAllCategory() as $cat)
                                     <option>{{$cat->title}}</option>
                                 @endforeach
                             </select>
